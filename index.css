@@ -101,11 +101,11 @@ nav {
 
 /* intro section */
 
-.intor {
+.intro {
   position: relative;
 }
 @media (min-width: 600px) {
-  .intor {
+  .intro {
     display: grid;
     grid-template-areas:
       "img title"
