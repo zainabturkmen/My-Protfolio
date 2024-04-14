@@ -38,3 +38,8 @@ body {
   font-size: var(--fs-body);
   line-height: 1.6;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+}
