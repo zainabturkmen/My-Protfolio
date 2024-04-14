@@ -91,7 +91,7 @@ h3 {
   background-color: var(--clr-accent);
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
-  padding: .4em;
+  padding: 0.4em;
 }
 
 /* header */
@@ -127,5 +127,6 @@ nav {
     grid-column: -1/1;
     grid-row: 2;
     text-align: end;
+    position: relative;
   }
 }
