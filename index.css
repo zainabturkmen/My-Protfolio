@@ -39,6 +39,10 @@ body {
   line-height: 1.6;
 }
 
+section {
+  padding: 5rem 2rem;
+}
+
 img {
   display: block;
   max-width: 100%;
