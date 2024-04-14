@@ -108,9 +108,10 @@ header {
   max-width: 100px;
 }
 
-.nav{
+.nav {
   position: fixed;
 }
+
 /* intro section */
 
 .intro {
