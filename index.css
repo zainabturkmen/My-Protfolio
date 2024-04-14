@@ -125,11 +125,15 @@ header {
 .nav__list {
   list-style: none;
   display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.nav__link{
-  
+.nav__link {
 }
 /* intro section */
 
