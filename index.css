@@ -125,6 +125,7 @@ header {
 .nav__list {
   list-style: none;
   display: flex;
+  height: 100%;
 }
 
 /* intro section */
