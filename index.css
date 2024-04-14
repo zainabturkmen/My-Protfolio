@@ -120,4 +120,6 @@ nav {
     grid-area: img;
     min-width: 250px;
   }
+
+  .section__subtitle--intro
 }
