@@ -147,7 +147,7 @@ nav {
 .my-services {
   background-color: var(--clr-dark);
   background-image: url(./img/services-bg.jpg);
-  background-blend-mode: multiply;
   background-size: cover;
   color: var(--clr-light);
+  text-align: center;
 }
