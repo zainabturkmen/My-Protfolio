@@ -157,6 +157,9 @@ nav {
   position: relative;
 }
 
-.section__title--services::after{
-  
+.section__title--services::after {
+  content: "";
+  display: block;
+  width: 25%;
+  height: 1px;
 }
