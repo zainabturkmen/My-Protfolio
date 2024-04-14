@@ -52,3 +52,7 @@ h3 {
   line-height: 1.1;
   margin: 0;
 }
+
+h1{font-size: var(--fs-h1);}
+h2{font-size: var(--fs-h2);}
+h3{font-size: var(--fs-h3);}
