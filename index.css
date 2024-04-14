@@ -110,6 +110,13 @@ header {
 
 .nav {
   position: fixed;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
 }
 
 /* intro section */
