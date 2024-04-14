@@ -121,5 +121,8 @@ nav {
     min-width: 250px;
   }
 
-  .section__subtitle--intro
+  .section__subtitle--intro {
+    align-self: self-start;
+    grid-column: -1/1;
+  }
 }
