@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
+/* custom Properties */
 :root {
-  --ff-primary: 'Source Sans Pro', sans-serif;
-  --ff-secondary: ;
+  --ff-primary: "Source Sans Pro", sans-serif;
+  --ff-secondary: 'Source Code Pro', monospace;
 }
