@@ -128,5 +128,6 @@ nav {
     grid-row: 2;
     text-align: end;
     position: relative;
+    left: -1.5rem;
   }
 }
