@@ -114,6 +114,6 @@ nav {
   }
 
   .intro__img{
-    
+    grid-area: img;
   }
 }
