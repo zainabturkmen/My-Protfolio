@@ -136,6 +136,7 @@ header {
 .nav__link {
   color: inherit;
   font-weight: var(--fw-bold);
+  font-size: var(--fs-h2);
 }
 /* intro section */
 
