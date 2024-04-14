@@ -17,7 +17,7 @@
   --fs-h2: 2.25rem;
   --fs-h3: 1.25rem;
   --fs-body: 1rem;
-  --bs: 0.25em 025em;
+  --bs: 0.25em 025em 0.75em rgba(0, 0, 0, .25);
 }
 
 @media (min-width: 800px) {
@@ -121,6 +121,7 @@ nav {
   .intro__img {
     grid-area: img;
     min-width: 250px;
+    position: relative;
   }
 
   .section__subtitle--intro {
