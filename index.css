@@ -125,5 +125,7 @@ nav {
   .section__subtitle--intro {
     align-self: self-start;
     grid-column: -1/1;
+    grid-row: 2;
+    text-align: end;
   }
 }
