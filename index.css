@@ -105,7 +105,10 @@ nav {
   position: relative;
 }
 @media (min-width: 600px) {
-  .intor{
-    
+  .intor {
+    display: grid;
+    grid-template-areas:
+      "img title"
+      "img subtitle";
   }
 }
