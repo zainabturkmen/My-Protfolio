@@ -29,3 +29,7 @@
 }
 
 /* General style */
+
+body {
+  background-color: var(--clr-light);
+}
