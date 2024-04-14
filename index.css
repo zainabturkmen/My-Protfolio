@@ -110,6 +110,6 @@ nav {
     grid-template-areas:
       "img title"
       "img subtitle";
-    grid-template-columns: min-content;
+    grid-template-columns: min-content max-content;
   }
 }
