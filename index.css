@@ -165,3 +165,7 @@ nav {
   background-color: var(--clr-light);
   opacity: 0.5;
 }
+
+@media (min-width: 800px) {
+  .my-services;
+}
