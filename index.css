@@ -32,4 +32,6 @@
 
 body {
   background-color: var(--clr-light);
+  color: var(--clr-dark);
+  margin: 0;
 }
