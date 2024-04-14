@@ -17,8 +17,8 @@
   --fs-h2: 2.25rem;
   --fs-h3: 1.25rem;
   --fs-body: 1rem;
-   --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
-          0.125em 0.125em 0.25em rgba(0,0,0,.15);
+  --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
+    0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
 }
 
 @media (min-width: 800px) {
@@ -144,6 +144,7 @@ nav {
 
 /* My Services */
 
-.my-services{
+.my-services {
   background-color: var(--clr-dark);
+  color: var(--clr-light);
 }
