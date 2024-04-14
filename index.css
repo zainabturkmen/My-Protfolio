@@ -88,7 +88,14 @@ h3 {
   font-family: var(--ff-secondary);
 }
 
+/* header */
+
+nav {
+  display: none;
+}
+
 /* intro section */
 
-.intor {position: relative;
+.intor {
+  position: relative;
 }
