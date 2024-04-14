@@ -151,3 +151,12 @@ nav {
   color: var(--clr-light);
   text-align: center;
 }
+
+.section__title--services {
+  color: var(--clr-accent);
+  position: relative;
+}
+
+.section__title--services::after{
+  
+}
