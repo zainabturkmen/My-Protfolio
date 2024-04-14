@@ -74,7 +74,7 @@ h3 {
   font-weight: var(--fw-reg);
 }
 
-.section__title--intro strong{
+.section__title--intro strong {
   display: block;
 }
 .section__subtitle {
@@ -87,3 +87,5 @@ h3 {
   background-color: var(--clr-accent);
   font-family: var(--ff-secondary);
 }
+
+/* intro section */
