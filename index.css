@@ -98,8 +98,8 @@ h3 {
 
 /* header */
 
-.logo{
-  
+.logo {
+  max-width: 150px;
 }
 
 /* intro section */
