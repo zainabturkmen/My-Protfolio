@@ -123,6 +123,8 @@ header {
 }
 
 .nav__list {
+  list-style: none;
+  display: flex;
 }
 
 /* intro section */
