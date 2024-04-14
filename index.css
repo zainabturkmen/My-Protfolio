@@ -129,6 +129,6 @@ nav {
     text-align: end;
     position: relative;
     left: -1.5rem;
-    width: calc();
+    width: calc(100 + 1.5rem);
   }
 }
