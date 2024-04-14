@@ -142,7 +142,6 @@ nav {
   }
 }
 
-
 /* My Services */
 .my-services {
   background-color: var(--clr-dark);
@@ -160,8 +159,9 @@ nav {
 .section__title--services::after {
   content: "";
   display: block;
-  width: 25%;
+  width: 3em;
   height: 1px;
   margin: 0.5em auto 1em;
-  background-color: currentColor;
+  background-color: var(--clr-light);
+  opacity: 0.5;
 }
