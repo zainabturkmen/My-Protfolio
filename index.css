@@ -104,6 +104,8 @@ nav {
 .intor {
   position: relative;
 }
-@media (min-width) {
-  
+@media (min-width: 600px) {
+  .intor{
+    
+  }
 }
