@@ -98,8 +98,8 @@ h3 {
 
 /* header */
 
-nav {
-  display: none;
+.logo{
+  
 }
 
 /* intro section */
@@ -167,5 +167,4 @@ nav {
 }
 
 @media (min-width: 800px) {
-  .my-services;
 }
