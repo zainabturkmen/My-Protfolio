@@ -64,6 +64,7 @@ h3 {
 }
 
 .section__title {
+  margin-bottom: 0.25rem;
 }
 
 .section__subtitle {
@@ -74,5 +75,5 @@ h3 {
 .section__title--intro,
 .section__title--about {
   background-color: var(--clr-accent);
-  font-family: ;
+  font-family: var(--ff-secondary);
 }
