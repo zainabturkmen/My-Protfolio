@@ -91,6 +91,7 @@ h3 {
   background-color: var(--clr-accent);
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
+  padding: .4em;
 }
 
 /* header */
