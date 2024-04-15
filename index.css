@@ -117,11 +117,16 @@ h3 {
   font-size: var(--fs-h3);
 }
 
-.section__subtitle--intro{
-
+.section__subtitle--intro {
+  background-color: var(--clr-accent);
+  font-family: var(--ff-secondary);
+  margin-bottom: 1em;
+  padding: 0.25em 1em;
+  text-transform: uppercase;
+  font-size: 2em;
+  text-align: start;
 }
 
-.section__subtitle--intro,
 .section__subtitle--about {
   background-color: var(--clr-accent);
   font-family: var(--ff-secondary);
@@ -276,7 +281,7 @@ header {
     align-self: self-start;
     grid-column: -1/1;
     grid-row: 2;
-    text-align: end;
+    text-align: center;
     position: relative;
     left: -1.5rem;
     width: calc(100% + 1em);
