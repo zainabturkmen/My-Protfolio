@@ -298,6 +298,7 @@ header {
   background-color: var(--clr-dark);
   background-image: url(./img/services-bg.jpg);
   background-size: cover;
+  background-blend-mode: difference;
   color: var(--clr-light);
   text-align: center;
 }
@@ -328,7 +329,8 @@ header {
 
 .service p {
   line-height: 1.5em;
-  font-size: 0.8em;
+  font-size: 0.9em;
+  font-weight: 200;
 }
 
 @media (min-width: 800px) {
