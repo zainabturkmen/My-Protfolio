@@ -57,6 +57,11 @@ img {
 strong {
   font-weight: var(--fw-bold);
 }
+
+/* Buttons */
+.btn{
+  display: inline;
+}
 /* typography */
 
 h1,
@@ -278,7 +283,7 @@ header {
 }
 
 @media (min-width: 800px) {
-  .services {
+  .services { 
     display: flex;
     max-width: 1000px;
     margin: 0 auto;
@@ -286,5 +291,5 @@ header {
 
   .service + .service{
     margin-left: 2em ;
-  }
+  } 
 }
