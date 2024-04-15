@@ -413,3 +413,12 @@ header {
   text-align: center;
   padding: 2.5em 0;
 }
+
+.footer a {
+  color: inherit;
+}
+
+.footer__link:hover,
+.social-list__link:hover {
+  opacity: .5;
+}
