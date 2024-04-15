@@ -168,6 +168,10 @@ header {
   transform: rotate(0.625turn);
 }
 
+.nav-open .humburger::after {
+  transform: rotate(0.625turn);
+}
+
 .humburger {
   display: block;
   position: relative;
