@@ -273,7 +273,9 @@ header {
 }
 
 @media (min-width: 800px) {
-  .services{
-    
+  .services {
+    display: flex;
+    max-width: 1000;
+    margin: 0; 
   }
 }
