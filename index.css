@@ -371,5 +371,5 @@ header {
 
 .my-work{
   background-color: var(--clr-dark);
-  color: ;
+  color: var(--clr-light);
 }
