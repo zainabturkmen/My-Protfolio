@@ -169,7 +169,7 @@ header {
 }
 
 .nav-open .humburger::before {
-  transform: rotate(0.625turn);
+  transform: rotate(90deg);
 }
 
 .nav-open .humburger::after {
