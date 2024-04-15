@@ -157,7 +157,7 @@ header {
 }
 
 .nav-open .nav {
-  background-color: red;
+  transform: translateX(0);
 }
 
 .humburger {
@@ -168,7 +168,7 @@ header {
 .humburger,
 .humburger::after,
 .humburger::before {
-  background: var(--clr-dark);
+  background: var(--clr-accent);
   width: 2em;
   height: 3px;
   border-radius: 1em;
