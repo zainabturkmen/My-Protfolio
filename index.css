@@ -133,7 +133,9 @@ h3 {
   background-color: var(--clr-accent);
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
-  padding: 0.25em 1em;
+  padding: 0.5em 1em;
+  word-spacing: 0.7em;
+  line-height: 1.5em;
 }
 
 .section__subtitle--work {
