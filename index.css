@@ -106,6 +106,7 @@ header {
 
 .logo {
   max-width: 100px;
+  margin-top: -0.5em;
 }
 
 .nav {
@@ -152,6 +153,7 @@ header {
   position: absolute;
   right: 1em;
   top: 2.5em;
+  z-index: 1000;
 }
 
 .humburger {
