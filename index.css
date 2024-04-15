@@ -304,7 +304,6 @@ header {
 .service {
   max-width: 500px;
   margin: 0 auto;
-
 }
 
 @media (min-width: 800px) {
@@ -320,7 +319,24 @@ header {
   }
 }
 
-.about-me{
+.about-me {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+  .about-me {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+  }
+
+  .section__title--about,
+  .section__subtitle--about {
+    grid-column: 1;
+  }
+
+  .about-me__img {
+    grid-row: 1/ -1;
+    grid-column: 2;
+  }
 }
