@@ -145,18 +145,26 @@ header {
 }
 
 .humburger {
-  background: var(--clr-dark);
-  width: 2em;
-  height: 3px;
-  border-radius: 1em;
   display: block;
   position: relative;
 }
 
+.humburger,
 .humburger::after,
 .humburger::before{
+  background: var(--clr-dark);
+  width: 2em;
+  height: 3px;
+  border-radius: 1em;
+}
+
+.humburger::after,
+.humburger::before {
   content: "";
-  
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: var(--clr-dark);
 }
 
 /* intro section */
