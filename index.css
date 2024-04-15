@@ -157,7 +157,7 @@ header {
   margin-top: -0.5em;
 }
 
-.nav {
+/* .nav {
   position: fixed;
   background-color: var(--clr-dark);
   color: var(--clr-light);
@@ -177,7 +177,6 @@ header {
   height: 60%;
   flex-direction: column;
   justify-content: space-evenly;
-  /* align-items: center; */
   margin-left: 2em;
   padding: 0;
 }
@@ -252,7 +251,7 @@ header {
 }
 .humburger::after {
   bottom: 6px;
-}
+} */
 /* intro section */
 
 .intro {
