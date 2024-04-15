@@ -60,6 +60,7 @@ strong {
 
 :focus{
   outline: 3px solid var(--clr-accent);
+  outline-offset: 3px;
 }
 
 /* Buttons */
