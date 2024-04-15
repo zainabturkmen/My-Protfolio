@@ -117,6 +117,10 @@ h3 {
   font-size: var(--fs-h3);
 }
 
+.section__subtitle--intro{
+
+}
+
 .section__subtitle--intro,
 .section__subtitle--about {
   background-color: var(--clr-accent);
