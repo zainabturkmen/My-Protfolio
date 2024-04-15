@@ -441,3 +441,13 @@ header {
   margin: 2em 0;
   gap: 2em;
 }
+
+.portfolio-item-individual {
+  padding: 0 2em 2em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.portfolio-item-individual p {
+    max-width: 800px;
+}
