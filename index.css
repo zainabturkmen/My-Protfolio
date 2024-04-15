@@ -42,7 +42,7 @@ body {
   margin: 0;
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
-  line-height: 1;
+  line-height: 1em;
 }
 
 section {
@@ -314,7 +314,7 @@ header {
 
 .service p {
   line-height: 1.5em;
-  font-weight: 200;
+  font-size: 0.8em;
 }
 
 @media (min-width: 800px) {
