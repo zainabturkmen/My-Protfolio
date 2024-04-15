@@ -328,6 +328,10 @@ header {
   .about-me {
     display: grid;
     grid-template-columns: 1fr 200px;
+    grid-template-areas: 
+    "title img"
+    "subtitle img"
+    "text img";
   }
 
   .section__title--about,
