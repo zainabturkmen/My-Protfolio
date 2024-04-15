@@ -294,9 +294,6 @@ header {
   }
 
 
-  .nav-open .nav {
-  transform: translateX(100%);
-}
 }
 
 /* My Services */
