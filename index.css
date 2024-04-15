@@ -168,8 +168,12 @@ header {
   transform: rotate(0.625turn);
 }
 
-.nav-open .humburger::after {
+.nav-open .humburger::before {
   transform: rotate(0.625turn);
+}
+
+.nav-open .humburger::after {
+  opacity: 0;
 }
 
 .humburger {
