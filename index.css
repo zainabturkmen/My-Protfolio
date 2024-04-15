@@ -6,8 +6,8 @@
 
 /* custom Properties */
 :root {
-  --ff-primary: "Source Sans Pro", sans-serif;
-  --ff-secondary: "Source Code Pro", monospace;
+  --ff-primary: "Lora", serif;
+  --ff-secondary: "Roboto Slab", serif;
   --fw-reg: 300;
   --fw-bold: 900;
   --clr-light: #fff;
@@ -449,5 +449,5 @@ header {
 }
 
 .portfolio-item-individual p {
-    max-width: 800px;
+  max-width: 800px;
 }
