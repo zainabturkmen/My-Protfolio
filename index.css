@@ -156,6 +156,10 @@ header {
   z-index: 1000;
 }
 
+.nav-open .nav {
+  background-color: red;
+}
+
 .humburger {
   display: block;
   position: relative;
