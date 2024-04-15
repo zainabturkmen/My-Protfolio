@@ -58,7 +58,7 @@ strong {
   font-weight: var(--fw-bold);
 }
 
-:focus{
+:focus {
   outline: 3px solid var(--clr-accent);
   outline-offset: 3px;
 }
@@ -66,7 +66,7 @@ strong {
 /* Buttons */
 .btn {
   display: inline-block;
-  padding: 0.5em 1.5em;
+  padding: 0.5em 2.5em;
   background-color: var(--clr-accent);
   color: var(--clr-dark);
   text-decoration: none;
@@ -78,7 +78,7 @@ strong {
   transition: transform 200ms ease-in-out;
 }
 
-.btn:hover{
+.btn:hover {
   transform: scale(1.1);
 }
 
