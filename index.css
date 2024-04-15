@@ -324,6 +324,10 @@ header {
   margin: 0 auto;
 }
 
+.about-me__img {
+  box-shadow: var(--bs );
+}
+
 @media (min-width: 600px) {
   .about-me {
     display: grid;
@@ -339,6 +343,9 @@ header {
   .section__subtitle--about {
     grid-column: 1;
   }
+
+
+  .section__subtitle
 
   .about-me__img {
     grid-row: 1/ -1;
