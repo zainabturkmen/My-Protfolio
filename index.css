@@ -331,6 +331,7 @@ header {
   line-height: 1.5em;
   font-size: 0.9em;
   font-weight: 200;
+  color: #d1c9c9;
 }
 
 @media (min-width: 800px) {
@@ -401,6 +402,10 @@ header {
   text-align: center;
 }
 
+.about-me__body p {
+  line-height: 1.5em;
+  color: #303030;
+}
 .portfolio {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
