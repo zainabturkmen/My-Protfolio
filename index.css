@@ -125,6 +125,12 @@ h3 {
   padding: 0.25em 1em;
 }
 
+.section__subtitle--work {
+  color: var(--clr-accent);
+  font-weight: var(--fw-bold);
+  margin-bottom: 2em;
+}
+
 /* header */
 
 header {
@@ -366,10 +372,19 @@ header {
   }
 }
 
-
 /* My Work */
 
-.my-work{
+.my-work {
   background-color: var(--clr-dark);
   color: var(--clr-light);
+  text-align: center;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.portfolio__item{
+  
 }
