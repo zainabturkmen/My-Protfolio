@@ -144,6 +144,16 @@ header {
   color: var(--clr-accent);
 }
 
+.nav-toggle {
+  padding: 0.25em;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 1em;
+  top: 2.5em;
+}
+
 .humburger {
   display: block;
   position: relative;
@@ -151,7 +161,7 @@ header {
 
 .humburger,
 .humburger::after,
-.humburger::before{
+.humburger::before {
   background: var(--clr-dark);
   width: 2em;
   height: 3px;
@@ -164,9 +174,14 @@ header {
   position: absolute;
   left: 0;
   right: 0;
-  background-color: var(--clr-dark);
 }
 
+.humburger::before {
+  top: 6px;
+}
+.humburger::after {
+  bottom: 6px;
+}
 /* intro section */
 
 .intro {
