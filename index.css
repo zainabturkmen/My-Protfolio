@@ -144,8 +144,8 @@ header {
   color: var(--clr-accent);
 }
 
-.humburger{
-  
+.humburger {
+  background: var(--clr-dark);
 }
 
 /* intro section */
