@@ -125,10 +125,10 @@ header {
 .nav__list {
   list-style: none;
   display: flex;
+  height: 100%;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  height: 100%;
   margin: 0;
   padding: 0;
 }
@@ -151,6 +151,11 @@ header {
   border-radius: 1em;
   display: block;
   position: relative;
+}
+
+.humburger::after,
+.humburger::before{
+  
 }
 
 /* intro section */
