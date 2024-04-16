@@ -163,6 +163,10 @@ header {
   display: none;
 }
 
+.logo-and-toggle-div{
+  
+}
+
 /* .nav {
   position: fixed;
   background-color: var(--clr-dark);
@@ -299,7 +303,7 @@ header {
   }
 
   /* about */
-    .about-me {
+  .about-me {
     display: grid;
     grid-template-columns: 1fr 200px;
     grid-template-areas:
@@ -400,7 +404,6 @@ header {
 .about-me__img {
   box-shadow: var(--bs);
 }
-
 
 /* My Work */
 
