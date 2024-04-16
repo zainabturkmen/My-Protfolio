@@ -158,10 +158,6 @@ header {
 
 /* nav */
 
-.nav {
-  display: none;
-}
-
 .logo-and-toggle-div {
   display: flex;
   flex-direction: row;
@@ -173,6 +169,12 @@ header {
   border: none;
   background-color: var(--clr-light);
   cursor: pointer;
+}
+
+.nav {
+  display: block;
+  background-color: #111;
+  margin: 0;
 }
 /* .nav {
   position: fixed;
@@ -280,6 +282,20 @@ header {
 }
 
 @media (min-width: 600px) {
+  /* .nav {
+    display: block;
+  }
+
+  .logo-and-toggle-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -1em;
+  }
+
+  .sidebar-toggle {
+    display: none;
+  } */
   .intro {
     display: grid;
     width: min-content;
