@@ -173,7 +173,7 @@ header {
 
 .nav {
   display: none;
-  /* display: flex; */
+  display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
@@ -185,7 +185,7 @@ header {
   z-index: 1;
   height: 100vh;
   max-width: 600px;
-  min-width: 200px;
+  /* min-width: 200px; */
   padding-top: 1em;
   color: var(--clr-light);
 }
@@ -200,6 +200,7 @@ header {
 .links {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 3em;
 }
 
@@ -212,6 +213,12 @@ header {
   color: var(--clr-dark);
   text-transform: uppercase;
   font-weight: var(--fw-bold);
+  padding: .875em 3.5em .875em 2em;
+
+}
+
+.links li a:hover{
+  color: var(--clr-accent);
 }
 /* .nav {
   position: fixed;
