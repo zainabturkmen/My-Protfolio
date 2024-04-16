@@ -185,9 +185,14 @@ header {
   z-index: 1;
   height: 100vh;
   max-width: 600px;
-  /* min-width: 200px; */
   padding-top: 1em;
   color: var(--clr-light);
+  transition: all 0.3s linear;
+  transform: translate(0%);
+}
+
+.show-navbar {
+  transform: translate(-100%);
 }
 
 .close-btn {
@@ -195,6 +200,7 @@ header {
   margin-left: auto;
   padding-right: 1.5em;
   background-color: #f9f3f3;
+  cursor: pointer;
 }
 
 .links {
@@ -204,22 +210,22 @@ header {
   gap: 3em;
 }
 
-.links li{
+.links li {
   list-style: none;
 }
 
-.links li a{
+.links li a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: var(--fw-bold);
   color: var(--clr-dark);
-  padding: .875em 3.5em .875em 2em;
-
+  padding: 0.875em 3.5em 0.875em 2em;
 }
 
-.links li a:hover{
+.links li a:hover {
   color: var(--clr-accent);
 }
+
 
 /* .nav {
   position: fixed;
