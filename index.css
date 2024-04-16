@@ -154,7 +154,6 @@ header {
 
 .logo {
   max-width: 100px;
-  margin-top: -0.5em;
 }
 
 /* nav */
@@ -167,8 +166,14 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: -1em;
 }
 
+.sidebar-toggle {
+  border: none;
+  background-color: var(--clr-light);
+  cursor: pointer;
+}
 /* .nav {
   position: fixed;
   background-color: var(--clr-dark);
