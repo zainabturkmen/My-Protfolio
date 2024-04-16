@@ -172,23 +172,46 @@ header {
 }
 
 .nav {
-  display: block;
-  background-color: var(--clr-light);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 2em;
+  background-color: #f9f3f3;
   position: fixed;
   left: 0;
   top: 0;
   z-index: 1;
   height: 100vh;
   max-width: 600px;
+  min-width: 200px;
+  padding-top: 1em;
   color: var(--clr-light);
 }
 
 .close-btn {
   border: none;
-  background-color: var(--clr-light);
+  margin-left: auto;
+  padding-right: 1.5em;
+  background-color: #f9f3f3;
 }
 
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
 
+.links li{
+  list-style: none;
+}
+
+.links li a{
+  text-decoration: none;
+  color: var(--clr-dark);
+  text-transform: uppercase;
+  font-weight: var(--fw-bold);
+}
 /* .nav {
   position: fixed;
   background-color: var(--clr-dark);
