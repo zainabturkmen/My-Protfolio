@@ -210,9 +210,9 @@ header {
 
 .links li a{
   text-decoration: none;
-  color: var(--clr-dark);
   text-transform: uppercase;
   font-weight: var(--fw-bold);
+  color: var(--clr-dark);
   padding: .875em 3.5em .875em 2em;
 
 }
@@ -220,6 +220,7 @@ header {
 .links li a:hover{
   color: var(--clr-accent);
 }
+
 /* .nav {
   position: fixed;
   background-color: var(--clr-dark);
