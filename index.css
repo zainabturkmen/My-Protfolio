@@ -173,9 +173,22 @@ header {
 
 .nav {
   display: block;
-  background-color: #111;
-  margin: 0;
+  background-color: var(--clr-light);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  height: 100vh;
+  max-width: 600px;
+  color: var(--clr-light);
 }
+
+.close-btn {
+  border: none;
+  background-color: var(--clr-light);
+}
+
+
 /* .nav {
   position: fixed;
   background-color: var(--clr-dark);
