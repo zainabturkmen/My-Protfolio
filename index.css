@@ -147,8 +147,8 @@ h3 {
 /* header */
 
 header {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex; */
+  /* justify-content: space-between; */
   padding: 1em;
 }
 
@@ -163,8 +163,10 @@ header {
   display: none;
 }
 
-.logo-and-toggle-div{
-  
+.logo-and-toggle-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 /* .nav {
