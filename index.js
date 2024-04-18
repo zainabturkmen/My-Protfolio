@@ -1,14 +1,18 @@
 const sidebarToggle = document.querySelector(".sidebar-toggle");
 const nav = document.querySelector(".nav");
 const closeBtn = document.querySelector(".close-btn");
+const links = document.querySelectorAll(".links");
 
-sidebarToggle.addEventListener("click",() => {
+sidebarToggle.addEventListener("click", () => {
   nav.classList.toggle("show-navbar");
-  console.log(nav);
 });
 
-
-closeBtn.addEventListener("click", ()=> {
+closeBtn.addEventListener("click", () => {
   nav.classList.toggle("show-navbar");
-  console.log(closeBtn);
-})
+});
+
+links.forEach((link) => {
+  link.addEventListener("click", () => {
+    nav.classList.toggle("show-navbar");
+  });
+});
