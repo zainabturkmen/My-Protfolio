@@ -13,6 +13,6 @@ closeBtn.addEventListener("click", () => {
 
 links.forEach((link) => {
   link.addEventListener("click", () => {
-    nav.classList.toggle("show-navbar");
+    nav.classList.remove("show-navbar");
   });
 });
