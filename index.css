@@ -189,11 +189,11 @@ header {
   padding-top: 1em;
   color: var(--clr-light);
   transition: all 0.3s linear;
-  transform: translate(0%);
+  transform: translate(-100%);
 }
 
 .show-navbar {
-  transform: translate(-100%);
+  transform: translate(0);
 }
 
 
