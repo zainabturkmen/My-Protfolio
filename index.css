@@ -240,8 +240,8 @@ header {
 
 @media (min-width: 600px) {
   header {
-    background-color: #fff;
-    box-shadow: var(--bs);
+    /* background-color: #fff; */
+    /* box-shadow: var(--bs); */
     padding: unset;
     display: flex;
     flex-direction: row;
