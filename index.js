@@ -17,11 +17,6 @@ links.forEach((link) => {
   });
 });
 
-
-const string = "d";
-
-if (string === "") {
-  console.log("hehehe false");
-}else{
-  console.log("hahaha true");
-}
+const james = 22;
+const valeria = 25;
+const kenneth = 27;
