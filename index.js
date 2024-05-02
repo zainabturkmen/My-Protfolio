@@ -17,3 +17,8 @@ links.forEach((link) => {
   });
 });
 
+
+const Iam = {zainab: true}
+const Iamnot = Iam
+
+console.log(Iam === Iamnot);
