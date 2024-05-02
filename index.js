@@ -18,7 +18,10 @@ links.forEach((link) => {
 });
 
 
-const Iam = {zainab: true}
-const Iamnot = Iam
+const string = "d";
 
-console.log(Iam === Iamnot);
+if (string === "") {
+  console.log("hehehe false");
+}else{
+  console.log("hahaha true");
+}
