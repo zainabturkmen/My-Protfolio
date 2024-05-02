@@ -16,7 +16,3 @@ links.forEach((link) => {
     nav.classList.toggle("show-navbar");
   });
 });
-
-const james = 22;
-const valeria = 25;
-const kenneth = 27;
