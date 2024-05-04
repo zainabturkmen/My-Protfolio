@@ -17,5 +17,4 @@ links.forEach((link) => {
   });
 });
 
-console.log(typeof null);
 
