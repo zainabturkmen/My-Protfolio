@@ -16,3 +16,6 @@ links.forEach((link) => {
     nav.classList.toggle("show-navbar");
   });
 });
+
+console.log(typeof null);
+
